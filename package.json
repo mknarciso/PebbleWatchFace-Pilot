@@ -1,0 +1,65 @@
+{
+    "author": "kck",
+    "dependencies": {},
+    "keywords": [],
+    "name": "pilot",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "Pilot - Attitude Indicator",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/all_28t.png",
+                    "menuIcon": true,
+                    "name": "ALL28",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/all_48.png",
+                    "name": "ALL48",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/all.png",
+                    "name": "ICON144",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/mbg.png",
+                    "name": "MBG",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/background3.png",
+                    "name": "RING2",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/out_ring180.png",
+                    "name": "OUT_RING",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "chalk"
+        ],
+        "uuid": "46d184de-ac53-4b32-86d8-066bf67df9a7",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
